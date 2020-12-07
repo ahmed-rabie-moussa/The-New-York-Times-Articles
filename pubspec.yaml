@@ -1,0 +1,43 @@
+name: nyt
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+  #Provider Package
+  provider: ^4.3.2+2
+
+  #HTTP Package for Networking
+  http: ^0.12.2
+
+  #Internationalization and Localization Package
+  intl: ^0.16.1
+
+  #
+  mockito: ^4.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
