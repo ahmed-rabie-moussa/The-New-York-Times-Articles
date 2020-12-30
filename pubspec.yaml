@@ -27,7 +27,7 @@ dependencies:
   #Internationalization and Localization Package
   intl: ^0.16.1
 
-  #
+  #For mocking network connection
   mockito: ^4.1.3
 
 dev_dependencies:
